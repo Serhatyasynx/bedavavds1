@@ -1,0 +1,11 @@
+- name: Ngrok TCP Tunelling
+  # You may pin to the exact commit or the version.
+  # uses: apogiatzis/ngrok-tunneling-action@a88c9e0ef5b0f1932a5715f210f2fde239fc2630
+  uses: apogiatzis/ngrok-tunneling-action@v0.1.4
+  with:
+    # Challenge deployment timeout
+    timeout: # default is 1h
+    # The port to forward traffic to
+    port: 
+    # Ngrok authorization token
+    ngrok_authtoken: 1syT3KOrLfVJQpg3PECSAAKmHot_7k9RAC6a9gEns8qtXS9rj
